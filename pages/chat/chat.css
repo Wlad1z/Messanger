@@ -1,0 +1,83 @@
+@import url('./../../global/styles/global.css');
+
+
+.header img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.header h1{
+    color: white;
+    width: 85%;
+    padding: 0 10px;
+}
+.messages, .my-messages{
+    padding: 25px 25px;
+    border-radius: 30px;
+    width: 70%;
+    margin-top: 10px;
+    color: white;
+}
+.chat-body{
+    padding: 0px 25px;
+}
+.messages{
+    background-color: rgba(55, 62, 78, 1);
+    margin-right: 20%;
+}
+
+.my-messages{
+    background-color: rgba(122, 129, 148, 1);
+    margin-left: 20%;
+}
+.date{
+    margin: 20px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.app-message{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #3D4354;
+    margin: 25px;
+    border-radius: 30px;
+}
+.app-message button{
+    background-color: #3d435400;
+    
+    color: #9398A7;
+    border: none;
+    font-size: 25px;
+}
+.app-message label{
+    cursor: pointer;
+}
+.fa-sharp{
+    margin-right: 10px;
+}
+.input-image{
+    background-image: url();
+}
+
+.fa-camera{
+    background-color: #9398A7;
+    color: rgba(0, 0, 0 ,0.7);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.fa-paper-plane{
+    font-size: 20px;
+}
+.fa-camera:hover, .fa-paper-plane:hover{
+    color: white;
+    transition: 300ms;
+    font-size:25px;
+}
+#image-input{
+    display: none;
+}
