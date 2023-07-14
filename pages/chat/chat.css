@@ -28,7 +28,7 @@
 
 .my-messages{
     background-color: rgba(122, 129, 148, 1);
-    margin-left: 20%;
+    margin-left: 25%;
 }
 .date{
     margin: 20px;
@@ -43,8 +43,9 @@
     text-align: center;
     padding: 5px 10px;
     background-color: #3D4354;
-    margin: 25px;
+    margin: 25px auto;
     border-radius: 30px;
+    width: 70%;
 }
 .app-message button{
     background-color: #3d435400;
